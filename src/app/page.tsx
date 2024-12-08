@@ -66,7 +66,7 @@ export default function Home() {
         <div><Card bgcolor='bg-red-700' v='-30%' i={<Image src={h1} alt=""/>} l1='Slytherine' l2='Stylish cafe chair' l3='Rp 2.500.000 ' l4='Rp 3.500.000'/></div><br/><br/>
         
          <div><Card bgcolor='bg-red-700' v='-50%' i={<Image src={h3} alt=""/>} l1='Lolito' l2='Luxury Big Sofa' l3='Rp 7.000.000 ' l4='Rp 14.000.000'/></div>
-        < <div><Card bgcolor='bg-emerald-400' v='NEW' i={<Image src={h4} alt=""/>} l1='Respira' l2='outdoor bar table and stool' l3='Rp 5.00.000 ' l4='&nbsp;'/></div>
+         <div><Card bgcolor='bg-emerald-400' v='NEW' i={<Image src={h4} alt=""/>} l1='Respira' l2='outdoor bar table and stool' l3='Rp 5.00.000 ' l4='&nbsp;'/></div>
          </div>
         <br/><br/>
         <div className="flex  gap-20 m-20">
