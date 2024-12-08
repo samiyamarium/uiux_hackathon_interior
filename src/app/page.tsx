@@ -64,7 +64,7 @@ export default function Home() {
         <div  className="m-20 text-center text-4xl text-black tracking-wide font-bold font-sans"><b>Our Products</b></div>
         <div className="flex flex-wrap sm:grid-cols-1 md:grid-cols-2 lg:grid:cols:4  gap-20 m-20">
         <div><Card bgcolor='bg-red-700' v='-30%' i={<Image src={h1} alt=""/>} l1='Slytherine' l2='Stylish cafe chair' l3='Rp 2.500.000 ' l4='Rp 3.500.000'/></div><br/><br/>
-         <div className="w-60" ><Image className='w-full h-96' src={h2} alt=""/></div>
+         <div className="w-60" ><Image className='w-screeen h-96' src={h2} alt=""/></div>
          <div><Card bgcolor='bg-red-700' v='-50%' i={<Image src={h3} alt=""/>} l1='Lolito' l2='Luxury Big Sofa' l3='Rp 7.000.000 ' l4='Rp 14.000.000'/></div>
          <div><Card bgcolor='bg-emerald-400' v='NEW' i={<Image src={h4} alt=""/>} l1='Respira' l2='outdoor bar table and stool' l3='Rp 5.00.000 ' l4='&nbsp;'/></div>
          </div>
