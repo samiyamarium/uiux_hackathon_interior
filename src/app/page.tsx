@@ -47,7 +47,7 @@ export default function Home() {
         <li><a href="#3">Shop</a></li>
         <li><a href="#1">Blog</a></li>
         <li><a href="#4">Contact</a></li></ul></div>
-        <div className="pt-6"><div className="flex justify-between gap-12 w-8 h-8  "><Image className="w-28" src={i1} alt=""/><Image src={i2} alt="" /><Image src={i3} alt=""/><Image src={i4} alt=""/></div>
+        <div className="pt-6"><div className="flex justify-between gap-12 w-8 h-8  "><Image className="w-28" src={i1} alt=""/><Image className="w-28" src={i2} alt="" /><Image className="w-28" src={i3} alt=""/><Image className="w-28" src={i4} alt=""/></div>
         </div></div>
         <br/>
       <div  className=" mx-20 w-screen  h-screen  text-white bg-[url('/back.png')]  bg-cover"><div ><Card1/></div></div>
