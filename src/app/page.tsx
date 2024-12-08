@@ -62,7 +62,7 @@ export default function Home() {
           <li className="pl-14">Bedroom</li>
           </ul> </div>
         <div  className="m-20 text-center text-4xl text-black tracking-wide font-bold font-sans"><b>Our Products</b></div>
-        <div className="flex  gap-20 m-20">
+        <div className="flex flex-wrap sm:grid-cols-1 md:grid-cols-2 lg:grid:cols:4  gap-20 m-20">
         <div><Card bgcolor='bg-red-700' v='-30%' i={<Image src={h1} alt=""/>} l1='Slytherine' l2='Stylish cafe chair' l3='Rp 2.500.000 ' l4='Rp 3.500.000'/></div><br/><br/>
          <div className="w-60" ><Image className='w-full h-96' src={h2} alt=""/></div>
          <div><Card bgcolor='bg-red-700' v='-50%' i={<Image src={h3} alt=""/>} l1='Lolito' l2='Luxury Big Sofa' l3='Rp 7.000.000 ' l4='Rp 14.000.000'/></div>
@@ -85,7 +85,7 @@ inspiration</b></div><div className="font-sans font-semibold text-xl  text-black
 <div className="flex "> <Image className="w-96" src={s1} alt=""/><Image className="w-96" src={s2} alt=""/><Image className="w-96" src={s3} alt=""/></div>
 </div>
       <br/>
-      <div className=" m-20 bg-black gap-4"><div className="flex"><Image className="mx-10 w-16 h-52" src={d8} alt=""/><Image className="mx-10 w-80 h-40 pt-4" src={d7} alt=""/><Image className="mx-10 w-60 h-96 pt-16 pb-16" src={d4} alt=""/><Image className="mx-10 w-60 h-96 pt-8 pb-24" src={d3} alt=""/><Image className="mx-10 w-28 h-60  pb-24" src={d9} alt=""/></div><br/><div className="flex"><Image className="w-40 mx-10 h-96 pb-28 " src={d5} alt=""/><Image className="mx-10 w-60  pb-24" src={d6} alt=""/> <Image className="mx-40 w-60  pb-2" src={d1} alt=""/><Image className="mx-10 w-60  pb-12" src={d2} alt=""/> </div>
+      <div className=" m-20 flex-wrap sm:grid-cols-1 md:grid-cols-2 lg:grid:cols:4 bg-black gap-4"><div className="flex"><Image className="mx-10 w-16 h-52" src={d8} alt=""/><Image className="mx-10 w-80 h-40 pt-4" src={d7} alt=""/><Image className="mx-10 w-60 h-96 pt-16 pb-16" src={d4} alt=""/><Image className="mx-10 w-60 h-96 pt-8 pb-24" src={d3} alt=""/><Image className="mx-10 w-28 h-60  pb-24" src={d9} alt=""/></div><br/><div className="flex"><Image className="w-40 mx-10 h-96 pb-28 " src={d5} alt=""/><Image className="mx-10 w-60  pb-24" src={d6} alt=""/> <Image className="mx-40 w-60  pb-2" src={d1} alt=""/><Image className="mx-10 w-60  pb-12" src={d2} alt=""/> </div>
       </div>
 <br/><div id="1"><Blog/></div><br/>  <br/><hr/>    
         <div id="4" className="flex m-20  bg-white gap-24 justify-between">
