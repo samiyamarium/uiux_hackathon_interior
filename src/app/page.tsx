@@ -55,8 +55,8 @@ export default function Home() {
 
         <div id="3" className="py-4 text-center text-4xl text-black tracking-wide font-bold font-sans"> Browse The Range</div>
         <div className=" text-center text-xl text-gray-400 tracking-wide font-semibold font-sans">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div><br/>
-      <br/><div className="flex flex-wrap ml-28   text-xl font-sans tracking-wide  font-semibold text-black w-96 gap-8 "><Image src={r1} alt=""/><Image src={r2} alt=""/><Image src={r3} alt=""/></div>
-        <div className="flex flex-wrap  justify-between gap-60"><ul className=" ml-48 flex  gap-72 text-xl font-sans tracking-wide font-semibold text-black    ">
+      <br/><div className="flex  ml-28   text-xl font-sans tracking-wide  font-semibold text-black w-96 gap-8 "><Image src={r1} alt=""/><Image src={r2} alt=""/><Image src={r3} alt=""/></div>
+        <div className="flex   justify-between gap-60"><ul className=" ml-48 flex  gap-72 text-xl font-sans tracking-wide font-semibold text-black    ">
           <li className="pl-20">Dining</li>
           <li className="pl-12">Living</li>
           <li className="pl-14">Bedroom</li>
@@ -79,13 +79,13 @@ export default function Home() {
          <br/>
 
         
-        <div id="2"className="flex flex-wrap m-20 bg-white" >
+        <div id="2"className="flex  m-20 bg-white" >
           <div ><div className="text-3xl font-sans font-bold text-black py-4 pt-40 "><b>50+ Beautiful rooms 
 inspiration</b></div><div className="font-sans font-semibold text-xl  text-black">Our designer already made a lot of beautiful prototipe of rooms that inspire you</div><br/><br/><div><button className="bg-[#B88E2F] text-white text-semibold px-8 py-4 text-center">Explore More</button></div></div>
 <div className="flex "> <Image className="w-96" src={s1} alt=""/><Image className="w-96" src={s2} alt=""/><Image className="w-96" src={s3} alt=""/></div>
 </div>
       <br/>
-      <div className=" m-20 flex-wrap  bg-black gap-4"><div className="flex"><Image className="mx-10 w-16 h-52" src={d8} alt=""/><Image className="mx-10 w-80 h-40 pt-4" src={d7} alt=""/><Image className="mx-10 w-60 h-96 pt-16 pb-16" src={d4} alt=""/><Image className="mx-10 w-60 h-96 pt-8 pb-24" src={d3} alt=""/><Image className="mx-10 w-28 h-60  pb-24" src={d9} alt=""/></div><br/><div className="flex"><Image className="w-40 mx-10 h-96 pb-28 " src={d5} alt=""/><Image className="mx-10 w-60  pb-24" src={d6} alt=""/> <Image className="mx-40 w-60  pb-2" src={d1} alt=""/><Image className="mx-10 w-30  pb-12" src={d2} alt=""/> </div>
+      <div className=" m-20   bg-black gap-4"><div className="flex"><Image className="mx-10 w-16 h-52" src={d8} alt=""/><Image className="mx-10 w-80 h-40 pt-4" src={d7} alt=""/><Image className="mx-10 w-60 h-96 pt-16 pb-16" src={d4} alt=""/><Image className="mx-10 w-60 h-96 pt-8 pb-24" src={d3} alt=""/><Image className="mx-10 w-28 h-60  pb-24" src={d9} alt=""/></div><br/><div className="flex"><Image className="w-40 mx-10 h-96 pb-28 " src={d5} alt=""/><Image className="mx-10 w-60  pb-24" src={d6} alt=""/> <Image className="mx-40 w-60  pb-2" src={d1} alt=""/><Image className="mx-10 w-30  pb-12" src={d2} alt=""/> </div>
       </div>
 <br/><div id="1"><Blog/></div><br/>  <br/><hr/>    
         <div id="4" className="flex m-20  bg-white gap-24 justify-between">
