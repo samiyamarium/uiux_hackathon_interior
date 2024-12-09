@@ -55,8 +55,8 @@ export default function Home() {
 
         <div id="3" className="py-4 text-center text-4xl text-black tracking-wide font-bold font-sans"> Browse The Range</div>
         <div className=" text-center text-xl text-gray-400 tracking-wide font-semibold font-sans">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div><br/>
-      <br/><div className="flex ml-28  text-xl font-sans tracking-wide font-semibold text-black w-96 gap-8 "><Image src={r1} alt=""/><Image src={r2} alt=""/><Image src={r3} alt=""/></div>
-        <div className="flex   justify-between gap-60"><ul className=" ml-48 flex gap-72 text-xl font-sans tracking-wide font-semibold text-black    ">
+      <br/><div className="flex ml-28   text-xl font-sans tracking-wide flex-wrap sm:grid-cols-1 md:grid-cols-2 lg:grid:cols:3 font-semibold text-black w-96 gap-8 "><Image src={r1} alt=""/><Image src={r2} alt=""/><Image src={r3} alt=""/></div>
+        <div className="flex   justify-between gap-60"><ul className=" ml-48 flex  gap-72 text-xl font-sans tracking-wide font-semibold text-black    ">
           <li className="pl-20">Dining</li>
           <li className="pl-12">Living</li>
           <li className="pl-14">Bedroom</li>
@@ -69,7 +69,7 @@ export default function Home() {
          <div><Card bgcolor='bg-emerald-400' v='NEW' i={<Image src={h4} alt=""/>} l1='Respira' l2='outdoor bar table and stool' l3='Rp 5.00.000 ' l4='&nbsp;'/></div>
          </div>
         <br/><br/>
-        <div className="flex  gap-20 m-20">
+        <div className="flex flex-wrap sm:grid-cols-1 md:grid-cols-2 lg:grid:cols:4 gap-20 m-20">
         <div><Card bgcolor='&nbsp;' v='&nbsp;' i={<Image src={h5} alt=""/>} l1='Grifo' l2='Night lamp' l3='Rp 1.500.000 ' l4='&nbsp;'/></div><br/><br/>
         <div><Card bgcolor='bg-emerald-400' v='NEW' i={<Image src={h6} alt=""/>} l1='Muggo' l2='Small mug' l3='Rp 1.50.000 ' l4='&nbsp;'/></div>
          <div><Card bgcolor='bg-red-700' v='-50%' i={<Image src={h7} alt=""/>} l1='PingKy' l2='Cute sed set' l3='Rp 7.000.000 ' l4='&nbsp;'/></div>
@@ -85,7 +85,7 @@ inspiration</b></div><div className="font-sans font-semibold text-xl  text-black
 <div className="flex "> <Image className="w-96" src={s1} alt=""/><Image className="w-96" src={s2} alt=""/><Image className="w-96" src={s3} alt=""/></div>
 </div>
       <br/>
-      <div className=" m-20 flex-wrap sm:grid-cols-1 md:grid-cols-2 lg:grid:cols:4 bg-black gap-4"><div className="flex"><Image className="mx-10 w-16 h-52" src={d8} alt=""/><Image className="mx-10 w-80 h-40 pt-4" src={d7} alt=""/><Image className="mx-10 w-60 h-96 pt-16 pb-16" src={d4} alt=""/><Image className="mx-10 w-60 h-96 pt-8 pb-24" src={d3} alt=""/><Image className="mx-10 w-28 h-60  pb-24" src={d9} alt=""/></div><br/><div className="flex"><Image className="w-40 mx-10 h-96 pb-28 " src={d5} alt=""/><Image className="mx-10 w-60  pb-24" src={d6} alt=""/> <Image className="mx-40 w-60  pb-2" src={d1} alt=""/><Image className="mx-10 w-60  pb-12" src={d2} alt=""/> </div>
+      <div className=" m-20 flex-wrap sm:grid-cols-1 md:grid-cols-2 lg:grid:cols:4 bg-black gap-4"><div className="flex"><Image className="mx-10 w-16 h-52" src={d8} alt=""/><Image className="mx-10 w-80 h-40 pt-4" src={d7} alt=""/><Image className="mx-10 w-60 h-96 pt-16 pb-16" src={d4} alt=""/><Image className="mx-10 w-60 h-96 pt-8 pb-24" src={d3} alt=""/><Image className="mx-10 w-28 h-60  pb-24" src={d9} alt=""/></div><br/><div className="flex"><Image className="w-40 mx-10 h-96 pb-28 " src={d5} alt=""/><Image className="mx-10 w-60  pb-24" src={d6} alt=""/> <Image className="mx-40 w-60  pb-2" src={d1} alt=""/><Image className="mx-10 w-30  pb-12" src={d2} alt=""/> </div>
       </div>
 <br/><div id="1"><Blog/></div><br/>  <br/><hr/>    
         <div id="4" className="flex m-20  bg-white gap-24 justify-between">
