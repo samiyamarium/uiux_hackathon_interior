@@ -75,7 +75,7 @@ export default function Home() {
          <div><Card bgcolor='bg-red-700' v='-50%' i={<Image src={h7} alt=""/>} l1='PingKy' l2='Cute sed set' l3='Rp 7.000.000 ' l4='&nbsp;'/></div>
          <br/><div className="text-center mx-96 py-8"><Card bgcolor='bg-emerald-500' v='NEW' i={<Image src={h8} alt=""/>} l1='Potty' l2='Minimalist flower pot' l3='Rp 500.000 ' l4='&nbsp;'/></div>
          </div><br/>
-         <div className="m-20  text-center"><button className="outline outline-2 outline-[#B88E2F] text-[#B88E2F]  px-12 py-2 text-center ">Show More</button></div>
+         <div className="  text-center"><button className="outline outline-2 outline-[#B88E2F] text-[#B88E2F]  px-12 py-2 text-center ">Show More</button></div>
          <br/>
 
         
