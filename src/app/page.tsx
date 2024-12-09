@@ -69,7 +69,7 @@ export default function Home() {
          <div><Card bgcolor='bg-emerald-400' v='NEW' i={<Image src={h4} alt=""/>} l1='Respira' l2='outdoor bar table and stool' l3='Rp 5.00.000 ' l4='&nbsp;'/></div>
          </div>
         <br/><br/>
-        <div className="flex flex-wrap sm:grid-cols-1 md:grid-cols-2 lg:grid:cols:4 gap-20 m-20">
+        <div className="flex flex-wrap  gap-20 m-20">
         <div><Card bgcolor='&nbsp;' v='&nbsp;' i={<Image src={h5} alt=""/>} l1='Grifo' l2='Night lamp' l3='Rp 1.500.000 ' l4='&nbsp;'/></div><br/><br/>
         <div><Card bgcolor='bg-emerald-400' v='NEW' i={<Image src={h6} alt=""/>} l1='Muggo' l2='Small mug' l3='Rp 1.50.000 ' l4='&nbsp;'/></div>
          <div><Card bgcolor='bg-red-700' v='-50%' i={<Image src={h7} alt=""/>} l1='PingKy' l2='Cute sed set' l3='Rp 7.000.000 ' l4='&nbsp;'/></div>
