@@ -55,8 +55,8 @@ export default function Home() {
 
         <div id="3" className="py-4 text-center text-4xl text-black tracking-wide font-bold font-sans"> Browse The Range</div>
         <div className=" text-center text-xl text-gray-400 tracking-wide font-semibold font-sans">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div><br/>
-      <br/><div className="flex ml-28   text-xl font-sans tracking-wide  font-semibold text-black w-96 gap-8 "><Image src={r1} alt=""/><Image src={r2} alt=""/><Image src={r3} alt=""/></div>
-        <div className="flex   justify-between gap-60"><ul className=" ml-48 flex  gap-72 text-xl font-sans tracking-wide font-semibold text-black    ">
+      <br/><div className="flex flex-wrap ml-28   text-xl font-sans tracking-wide  font-semibold text-black w-96 gap-8 "><Image src={r1} alt=""/><Image src={r2} alt=""/><Image src={r3} alt=""/></div>
+        <div className="flex flex-wrap  justify-between gap-60"><ul className=" ml-48 flex  gap-72 text-xl font-sans tracking-wide font-semibold text-black    ">
           <li className="pl-20">Dining</li>
           <li className="pl-12">Living</li>
           <li className="pl-14">Bedroom</li>
@@ -73,13 +73,13 @@ export default function Home() {
         <div><Card bgcolor='&nbsp;' v='&nbsp;' i={<Image src={h5} alt=""/>} l1='Grifo' l2='Night lamp' l3='Rp 1.500.000 ' l4='&nbsp;'/></div><br/><br/>
         <div><Card bgcolor='bg-emerald-400' v='NEW' i={<Image src={h6} alt=""/>} l1='Muggo' l2='Small mug' l3='Rp 1.50.000 ' l4='&nbsp;'/></div>
          <div><Card bgcolor='bg-red-700' v='-50%' i={<Image src={h7} alt=""/>} l1='PingKy' l2='Cute sed set' l3='Rp 7.000.000 ' l4='&nbsp;'/></div>
-         <div><Card bgcolor='bg-emerald-500' v='NEW' i={<Image src={h8} alt=""/>} l1='Potty' l2='Minimalist flower pot' l3='Rp 500.000 ' l4='&nbsp;'/></div>
+         <br/><div><Card bgcolor='bg-emerald-500' v='NEW' i={<Image src={h8} alt=""/>} l1='Potty' l2='Minimalist flower pot' l3='Rp 500.000 ' l4='&nbsp;'/></div>
          </div><br/>
          <div className="m-20  text-center"><button className="outline outline-2 outline-[#B88E2F] text-[#B88E2F]  px-12 py-2 text-center ">Show More</button></div>
          <br/>
 
         
-        <div id="2"className="flex m-20 bg-white" >
+        <div id="2"className="flex flex-wrap m-20 bg-white" >
           <div ><div className="text-3xl font-sans font-bold text-black py-4 pt-40 "><b>50+ Beautiful rooms 
 inspiration</b></div><div className="font-sans font-semibold text-xl  text-black">Our designer already made a lot of beautiful prototipe of rooms that inspire you</div><br/><br/><div><button className="bg-[#B88E2F] text-white text-semibold px-8 py-4 text-center">Explore More</button></div></div>
 <div className="flex "> <Image className="w-96" src={s1} alt=""/><Image className="w-96" src={s2} alt=""/><Image className="w-96" src={s3} alt=""/></div>
