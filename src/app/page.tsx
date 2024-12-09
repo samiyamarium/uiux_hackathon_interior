@@ -74,7 +74,7 @@ export default function Home() {
         <div><Card bgcolor='bg-emerald-400' v='NEW' i={<Image src={h6} alt=""/>} l1='Muggo' l2='Small mug' l3='Rp 1.50.000 ' l4='&nbsp;'/></div>
          <div><Card bgcolor='bg-red-700' v='-50%' i={<Image src={h7} alt=""/>} l1='PingKy' l2='Cute sed set' l3='Rp 7.000.000 ' l4='&nbsp;'/></div>
          <br/><div className="text-center mx-96 py-8"><Card bgcolor='bg-emerald-500' v='NEW' i={<Image src={h8} alt=""/>} l1='Potty' l2='Minimalist flower pot' l3='Rp 500.000 ' l4='&nbsp;'/>
-         <button className="outline outline-2 outline-[#B88E2F] text-[#B88E2F] mx-96 px-12 py-2 text-center ">Show More</button></div>
+         <button className="outline outline-2 outline-[#B88E2F] text-[#B88E2F] mx-96 px-16 py-2 text-center ">Show More</button></div>
          <br/>
 
         
@@ -84,7 +84,7 @@ inspiration</b></div><div className="font-sans font-semibold text-xl  text-black
 <div className="flex "> <Image className="w-96" src={s1} alt=""/><Image className="w-96" src={s2} alt=""/><Image className="w-96" src={s3} alt=""/></div>
 </div>
       <br/>
-      <div className=" m-20   bg-black gap-4"><div className="flex"><Image className="mx-10 w-16 h-52" src={d8} alt=""/><Image className="mx-10 w-80 h-40 pt-4" src={d7} alt=""/><Image className="mx-10 w-60 h-96 pt-16 pb-16" src={d4} alt=""/><Image className="mx-10 w-60 h-96 pt-8 pb-24" src={d3} alt=""/><Image className="mx-10 w-28 h-60  pb-24" src={d9} alt=""/></div><br/><div className="flex"><Image className="w-40 mx-10 h-96 pb-28 " src={d5} alt=""/><Image className="mx-10 w-60  pb-24" src={d6} alt=""/> <Image className="mx-40 w-60  pb-2" src={d1} alt=""/><Image className="mx-10 w-30  pb-12" src={d2} alt=""/> </div>
+      <div className=" m-20   bg-black gap-4"><div className="flex"><Image className="mx-10 w-16 h-52" src={d8} alt=""/><Image className="mx-10 w-80 h-40 pt-4" src={d7} alt=""/><Image className="mx-10 w-60 h-96 pt-16 pb-16" src={d4} alt=""/><Image className="mx-10 w-60 h-96 pt-8 pb-24" src={d3} alt=""/><Image className="mx-10 w-28 h-60  pb-24" src={d9} alt=""/></div><br/><div className="flex"><Image className="w-40 mx-10 h-96 pb-28 " src={d5} alt=""/><Image className="mx-10 w-60  pb-24" src={d6} alt=""/> <Image className="mx-40 w-60  pb-2" src={d1} alt=""/><Image className=" w-30  pb-12" src={d2} alt=""/> </div>
       </div>
 <br/><div id="1"><Blog/></div><br/>  <br/><hr/>    
         <div id="4" className="flex m-20  bg-white gap-24 justify-between">
