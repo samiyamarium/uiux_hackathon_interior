@@ -63,19 +63,19 @@ export default function Home() {
           <li className="pl-14">Bedroom</li>
           </ul> </div>
         <div  className="m-20 text-center text-4xl text-black tracking-wide font-bold font-sans"><b>Our Products</b></div>
-        <div className="flex flex-wrap   gap-20 m-20">
+        <div className="flex flex-wrap   gap-20 m-28">
         <div className=" grid-cols-1 md:grid-cols-2 lg:grid-cols-3  flex-wrap"><Card bgcolor='bg-red-700' v='-30%' i={<Image className="w-screen h-48" src={h1} alt=""/>} l1='Slytherine' l2='Stylish cafe chair' l3='Rp 2.500.000 ' l4='Rp 3.500.000'/></div>
         
          <div className=" grid-cols-1 md:grid-cols-2 lg:grid-cols-3  flex-wrap"><Card bgcolor='bg-red-700' v='-50%' i={<Image className="w-screen h-48" src={h3} alt=""/>} l1='Lolito' l2='Luxury Big Sofa' l3='Rp 7.000.000 ' l4='Rp 14.000.000'/></div>
          <div className=" grid-cols-1 md:grid-cols-2 lg:grid-cols-3  flex-wrap"><Card bgcolor='bg-emerald-400' v='NEW' i={<Image className="w-screen h-48" src={h4} alt=""/>} l1='Respira' l2='outdoor bar table and stool' l3='Rp 5.00.000 ' l4='&nbsp;'/></div>
          </div>
         <br/><br/>
-        <div className="flex flex-wrap  gap-20 m-20">
+        <div className="flex flex-wrap  gap-20 m-28">
         <div className=" grid-cols-1 md:grid-cols-2 lg:grid-cols-3  flex-wrap"><Card bgcolor='&nbsp;' v='&nbsp;' i={<Image className="w-screen h-48" src={h5} alt=""/>} l1='Grifo' l2='Night lamp' l3='Rp 1.500.000 ' l4='&nbsp;'/></div><br/><br/>
         <div className=" grid-cols-1 md:grid-cols-2 lg:grid-cols-3  flex-wrap"><Card bgcolor='bg-emerald-400' v='NEW' i={<Image className="w-screen h-48" src={h6} alt=""/>} l1='Muggo' l2='Small mug' l3='Rp 1.50.000 ' l4='&nbsp;'/></div>
          <div className=" grid-cols-1 md:grid-cols-2 lg:grid-cols-3  flex-wrap"><Card bgcolor='bg-red-700' v='-50%' i={<Image className="w-screen h-48" src={h7} alt=""/>} l1='PingKy' l2='Cute sed set' l3='Rp 7.000.000 ' l4='&nbsp;'/></div>
          <div className="text-center mx-96 py-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3  flex-wrap "><Card bgcolor='bg-emerald-500' v='NEW' i={<Image className="w-screen h-48" src={h8} alt=""/>} l1='Potty' l2='Minimalist flower pot' l3='Rp 500.000 ' l4='&nbsp;'/>
-         <div className="flex flex-wrap"></div><button className="grid-cols-1 md:grid-cols-2 lg:grid-cols-3  flex-wrap outline outline-2 outline-[#B88E2F] text-[#B88E2F] mx-96 px-16 py-2 text-center ">Show More</button></div></div>
+         <div className="flex flex-wrap"><button className="grid-cols-1 md:grid-cols-2 lg:grid-cols-3  flex-wrap outline outline-2 outline-[#B88E2F] text-[#B88E2F] mx-96 px-16 py-2 text-center ">Show More</button></div></div></div>
          <br/>
 
         
