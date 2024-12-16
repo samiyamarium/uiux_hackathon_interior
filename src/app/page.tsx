@@ -35,6 +35,7 @@ import r2 from '../app/card/r3.png';
 import r3 from '../app/card/r2.png';
 import back from '../../public/back.png';
 import Card1 from '../app/card1/page';
+import Shopft from '../app/shop_ft/page';
 
 
 
@@ -89,6 +90,7 @@ inspiration</b></div><div className="font-sans font-semibold text-xl  text-black
       </div>
 <br/><div id="1"><Blog/></div>
       <div><Shop/></div>
+      <div><Shopft/></div>
       <br/>  <br/>
     
       <hr/>    
