@@ -14,7 +14,7 @@ import d9 from  '../app/card/d9.png';
 
 
 import Blog from '../app/blog/page';
-import Shop from '../app/shop/page';
+import Shop from './shop/page';
 import lo from '../app/cover/logo.png';
 import i1 from '../app/cover/i1.png';
 import i2 from '../app/cover/i2.png';
