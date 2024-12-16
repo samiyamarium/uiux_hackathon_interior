@@ -14,6 +14,7 @@ import d9 from  '../app/card/d9.png';
 
 
 import Blog from '../app/blog/page';
+import Shop from '../app/shop/page';
 import lo from '../app/cover/logo.png';
 import i1 from '../app/cover/i1.png';
 import i2 from '../app/cover/i2.png';
@@ -86,7 +87,9 @@ inspiration</b></div><div className="font-sans font-semibold text-xl  text-black
       <br/>
       <div className=" m-20   bg-black gap-4"><div className="flex"><Image className="mx-10 w-16 h-52" src={d8} alt=""/><Image className="mx-10 w-80 h-40 pt-4" src={d7} alt=""/><Image className="mx-10 w-60 h-96 pt-16 pb-16" src={d4} alt=""/><Image className="mx-10 w-60 h-96 pt-8 pb-24" src={d3} alt=""/><Image className="mx-10 w-28 h-60  pb-24" src={d9} alt=""/></div><br/><div className="flex"><Image className="w-40 mx-10 h-96 pb-28 " src={d5} alt=""/><Image className="mx-10 w-60  pb-24" src={d6} alt=""/> <Image className="mx-40 w-60  pb-2" src={d1} alt=""/><Image className=" w-30  pb-12" src={d2} alt=""/> </div>
       </div>
-<br/><div id="1"><Blog/></div><br/>  <br/><hr/>    
+<br/><div id="1"><Blog/></div><br/>  <br/>
+      <div><Shop/></div><br/>>br/></br>
+      <hr/>    
         <div id="4" className="flex m-20  bg-white gap-24 justify-between">
          <div className="space-y-16"> <div className="font-sans font-bold text-2xl tracking-wider ">Funiro.</div><div className="text-xl font-sans text-gray-400 tracking-wide ">400 University Drive Suite Lord <br/>Gabes,<br/>FL 33134 USA</div> </div>
        <div className="pt-2"> <div className=" text-gray-400 tracking-wider font-sans font-semibold text-2xl">Links</div><ul className="text-black py-8 space-y-12 tracking-wider font-sans font-semibold text-xl">
