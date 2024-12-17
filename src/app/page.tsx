@@ -12,7 +12,7 @@ import d7 from  '../app/card/d7.png';
 import d8 from  '../app/card/d8.png';
 import d9 from  '../app/card/d9.png';
 import Contact from '../app/contact/page';
-
+import Cart from '../app/cart/page';
 import Blog from '../app/blog/page';
 import Shop from '../app/shop/page';
 import lo from '../app/cover/logo.png';
@@ -91,6 +91,7 @@ inspiration</b></div><div className="font-sans font-semibold text-xl  text-black
 <br/><div id="1"><Blog/></div>
       <div><Shop/></div>
       <div><Shopft/></div>
+      <div><Cart/></div>
       <div><Contact/></div>
       <br/>  <br/>
     
