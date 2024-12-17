@@ -20,7 +20,7 @@ export default function Contact(){
                     Hotline: +(84) 456-6789</p></div> <br/>                 
                     <div > <div className='flex gap-4'><Image className='w-[20] h-[24] ' src={v3} alt='' /><b className='text-2xl font-sans tracking-wide text-black'>Working Time</b></div><br/><p className='font-sans tracking-wide text-black px-[40]'>Monday-Friday: 9:00 - 22:00<br/>
                     Saturday-Sunday: 9:00 - 21:00</p></div></div>
-                  <div className='text-black font-sans text-xl tracking-wide font-bold pt-20 px-12'>
+                  <div className='text-black font-sans text-xl tracking-wide font-bold pt-20 px-20'>
                    <div> <label>Your Name</label><br/><br/><input  className='text-gray-600 font-semibold outline outline-4 outline-gray-400 rounded-md w-96 h-16 px-4' type='text' placeholder='Abc'/></div><br/><br/>
                    <div> <label>Email Address</label><br/><br/><input  className='text-gray-600 font-semibold outline outline-4 outline-gray-400 rounded-md w-96 h-16 px-4' type='email' placeholder='Abc@def.com'/></div><br/><br/>
                    <div> <label>Subject</label><br/><br/><input  className='text-gray-600 font-semibold outline outline-4 outline-gray-400 rounded-md w-96 h-16 px-4' type='text' placeholder='This is an optional'/></div><br/><br/>
