@@ -11,7 +11,7 @@ import d6 from  '../app/card/d6.png';
 import d7 from  '../app/card/d7.png';
 import d8 from  '../app/card/d8.png';
 import d9 from  '../app/card/d9.png';
-
+import Contact from '../app/contact/page';
 
 import Blog from '../app/blog/page';
 import Shop from '../app/shop/page';
@@ -91,6 +91,7 @@ inspiration</b></div><div className="font-sans font-semibold text-xl  text-black
 <br/><div id="1"><Blog/></div>
       <div><Shop/></div>
       <div><Shopft/></div>
+      <div><Contact/></div>
       <br/>  <br/>
     
       <hr/>    
