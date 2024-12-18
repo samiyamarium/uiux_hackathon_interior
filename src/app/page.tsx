@@ -36,7 +36,7 @@ import r3 from '../app/card/r2.png';
 import back from '../../public/back.png';
 import Card1 from '../app/card1/page';
 import Shopft from '../app/shop_ft/page';
-import Checkout from '../app/checkout/page';
+import Checkout from '../app/checkout/page'
 
 
 
@@ -93,7 +93,7 @@ inspiration</b></div><div className="font-sans font-semibold text-xl  text-black
       <div><Shop/></div>
      
       <div><Cart/></div>
-      <div><Checkout/></div>
+     <div><Checkout/></div>
       <div><Contact/></div>
       <br/>
        <div><Shopft/></div>
