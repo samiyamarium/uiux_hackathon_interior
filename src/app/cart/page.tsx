@@ -7,7 +7,7 @@ export default function Cart(){
         <div>
              
               <div className='pt-20 '>
-          <div  className=" mx-20 w-screen  h-60  text-white bg-[url('/shop.png')] pt-20 bg-cover text-center font-sans text-6xl"><b className=' text-amber-950 opacity-40'>Cart</b><div ></div></div>
+          <div  className=" mx-20 w-screen  h-60  text-white bg-[url('/shop.png')] pt-20 bg-cover text-center font-sans text-6xl"><b className=' text-amber-950 opacity-40'>Cart</b><div ></div>
                   <br/>
             <div  >
                 <br/><div><ul className='bg-orange-500 rounded-md  px-52 p-2 flex bg-opacity-20 text-xl font-sans font-bold  gap-4 justify-around text-center  text-black'><li>Product</li><li>Price</li><li>Quantity</li><li>Sub-Total</li> </ul></div>
