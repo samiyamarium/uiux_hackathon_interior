@@ -90,9 +90,11 @@ inspiration</b></div><div className="font-sans font-semibold text-xl  text-black
       </div>
 <br/><div id="1"><Blog/></div>
       <div><Shop/></div>
-      <div><Shopft/></div>
+     
       <div><Cart/></div>
       <div><Contact/></div>
+      <br/>
+       <div><Shopft/></div>
       <br/>  <br/>
     
       <hr/>    
