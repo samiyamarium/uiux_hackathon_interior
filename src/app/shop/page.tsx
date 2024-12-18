@@ -45,7 +45,9 @@ export default function Shop(){
         <div className="    grid-cols-1 md:grid-cols-2 lg:grid-cols-3  flex-wrap"><Card bgcolor='bg-emerald-400' v='NEW' i={<Image className='w-screen h-48' src={s11} alt=""/>} l1='Livingroom-3' l2='Life' l3='Rp 35.500.000 ' l4='&nbsp;'/></div>
         <div className="    grid-cols-1 md:grid-cols-2 lg:grid-cols-3  flex-wrap"><Card bgcolor='bg-red-700' v='-50%' i={<Image className='w-screen h-48' src={s12} alt=""/>} l1='Livingroom-4' l2='All you desire' l3='Rp 2.500.000 ' l4='&nbsp;'/></div>
         </div>
-        
+        <br/>
+            <div className='  flex gap-20 px-[550]'><div className='bg-orange-300 opacity-30 text-amber-950 flex-1 w-12 h-12 text-center font-sans rounded-md text-2xl flex-wrap sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3'><button>1</button></div><div className='bg-orange-300 opacity-30 text-amber-950  rounded-md flex-1 w-12 h-12 text-center font-sans text-2xl'><button>2</button></div><div className='bg-orange-300 opacity-30 flex-1 w-12 h-12 text-center text-amber-950 rounded-md text-2xl font-sans'><button>3</button></div><div className='bg-orange-300 font-sans opacity-30 text-amber-950 flex-1 w-16 h-12 text-center text-2xl'><button>Next</button></div>
+            </div>
         
         </div>
     )
