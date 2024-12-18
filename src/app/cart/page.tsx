@@ -5,6 +5,10 @@ import s2 from './s2.png';
 export default function Cart(){
     return(
         <div>
+             <br/>
+              <div className='pt-20 '>
+          <div  className=" mx-20 w-screen  h-60  text-white bg-[url('/shop.png')] pt-20 bg-cover text-center font-sans text-6xl"><b className=' text-amber-950 opacity-40'>Cart</b><div ></div></div>
+                  <br/>
             <div  >
                 <br/><div><ul className='bg-orange-500 rounded-md  px-52 p-2 flex bg-opacity-20 text-xl font-sans font-bold  gap-4 justify-around text-center  text-black'><li>Product</li><li>Price</li><li>Quantity</li><li>Sub-Total</li> </ul></div>
                 <br/><div className='flex'><div className='  bg-orange-600 rounded-md bg-opacity-20 ml-20'><Image className='w-28 h-28  rounded-md flex-1 p-4' src={s} alt=''/></div><br/><div><ul className=' flex rounded-md text-xl font-sans font-bold  gap-44 pt-12 text-center  px-16 text-gray-500'><li><p >Asgard Sofa</p></li><li >Rs.250,000.000</li><li className='flex-1 w-8 h-8 outline outline-2 rounded-md outline-gray-400'>1</li><li className='ml-16'>Rs.250,000.000</li> </ul></div> <div className=' pt-[60]'><Image className="w-8 h-8" src={s2} alt=''/></div></div>
