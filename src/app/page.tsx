@@ -87,7 +87,7 @@ inspiration</b></div><div className="font-sans font-semibold text-xl  text-black
 <div className="flex "> <Image className="w-96" src={s1} alt=""/><Image className="w-96" src={s2} alt=""/><Image className="w-96" src={s3} alt=""/></div>
 </div>
       <br/>
-      <div className=" m-20   bg-black gap-4"><div className="flex"><Image className="mx-10 w-16 h-52" src={d8} alt=""/><Image className="mx-10 w-80 h-40 pt-4" src={d7} alt=""/><Image className="mx-10 w-60 h-96 pt-16 pb-16" src={d4} alt=""/><Image className="mx-10 w-60 h-96 pt-8 pb-24" src={d3} alt=""/><Image className="mx-10 w-28 h-60  pb-24" src={d9} alt=""/></div><br/><div className="flex"><Image className="w-40 mx-10 h-96 pb-28 " src={d5} alt=""/><Image className="mx-10 w-60  pb-24" src={d6} alt=""/> <Image className="mx-40 w-60  pb-2" src={d1} alt=""/><Image className=" w-30  pb-12" src={d2} alt=""/> </div>
+      <div className=" m-20   bg-black gap-4"><div className="flex"><Image className="mx-10 w-16 h-52" src={d8} alt=""/><Image className="mx-10 w-80 h-40 pt-4" src={d7} alt=""/><Image className="mx-10 w-60 h-96 pt-16 pb-16" src={d4} alt=""/><Image className="mx-10 w-60 h-96 pt-8 pb-24" src={d3} alt=""/><Image className="mx-10 w-28 h-60  pb-24" src={d9} alt=""/></div><br/><div className="flex"><Image className="w-40 mx-10 h-96 pb-28 " src={d5} alt=""/><Image className="mx-10 w-60  pb-24" src={d6} alt=""/> <Image className="mx-40 w-60  pb-2" src={d1} alt=""/><Image className=" w-24  pb-12" src={d2} alt=""/> </div>
       </div>
 <br/><div id="1"><Blog/></div>
       <div><Shop/></div>
