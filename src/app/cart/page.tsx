@@ -5,7 +5,7 @@ import s2 from './s2.png';
 export default function Cart(){
     return(
         <div>
-             <br/>
+             
               <div className='pt-20 '>
           <div  className=" mx-20 w-screen  h-60  text-white bg-[url('/shop.png')] pt-20 bg-cover text-center font-sans text-6xl"><b className=' text-amber-950 opacity-40'>Cart</b><div ></div></div>
                   <br/>
