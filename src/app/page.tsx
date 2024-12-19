@@ -73,7 +73,7 @@ export default function Home() {
          <div className=" grid-cols-1 md:grid-cols-2 lg:grid-cols-3  flex-wrap"><Card bgcolor='bg-emerald-400' v='NEW' i={<Image className="w-screen h-48" src={h4} alt=""/>} l1='Respira' l2='outdoor bar table and stool' l3='Rp 5.00.000 ' l4='&nbsp;'/></div>
          </div>
         <br/><br/>
-        <div className="flex flex-wrap  gap-16 mx-28">
+        <div className="flex flex-wrap  gap-16 m-28">
         <div className=" grid-cols-1 md:grid-cols-2 lg:grid-cols-3  flex-wrap"><Card bgcolor='&nbsp;' v='&nbsp;' i={<Image className="w-screen h-48" src={h5} alt=""/>} l1='Grifo' l2='Night lamp' l3='Rp 1.500.000 ' l4='&nbsp;'/></div><br/><br/>
         <div className=" grid-cols-1 md:grid-cols-2 lg:grid-cols-3  flex-wrap"><Card bgcolor='bg-emerald-400' v='NEW' i={<Image className="w-screen h-48" src={h6} alt=""/>} l1='Muggo' l2='Small mug' l3='Rp 1.50.000 ' l4='&nbsp;'/></div>
          <div className=" grid-cols-1 md:grid-cols-2 lg:grid-cols-3  flex-wrap"><Card bgcolor='bg-red-700' v='-50%' i={<Image className="w-screen h-48" src={h7} alt=""/>} l1='PingKy' l2='Cute sed set' l3='Rp 7.000.000 ' l4='&nbsp;'/></div>
