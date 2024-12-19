@@ -45,7 +45,7 @@ export default function Singlep(){
 
      <br/><br/>
      <div className='text-center text-3xl text-black font-sans font-bold'>Related Products</div><br/><br/>
-     <div className='flex mx-28 gap-16 flex-wrap'>
+     <div className='flex mx-20 gap-8 flex-wrap'>
      <div className="    grid-cols-1 md:grid-cols-2 lg:grid-cols-3  flex-wrap"><Card bgcolor='bg-red-700' v='-30%' i={<Image className="w-screen h-48" src={h1} alt=""/>} l1='Slytherine' l2='Stylish cafe chair' l3='Rp 2.500.000 ' l4='Rp 3.500.000'/></div>
          <div className="    grid-cols-1 md:grid-cols-2 lg:grid-cols-3  flex-wrap " ><Card bgcolor='bg-red-700' v='-30%' i={<Image className="w-screen h-48" src={h2} alt=""/>} l1='Leviosa' l2='Stylish cafe chair' l3='Rp 2.500.000 ' l4='Rp 3.500.000'/></div>
          <div className="    grid-cols-1 md:grid-cols-2 lg:grid-cols-3  flex-wrap"><Card bgcolor='bg-red-700' v='-50%' i={<Image  className="w-screen h-48" src={h3} alt=""/>} l1='Lolito' l2='Luxury Big Sofa' l3='Rp 7.000.000 ' l4='Rp 14.000.000'/></div>
