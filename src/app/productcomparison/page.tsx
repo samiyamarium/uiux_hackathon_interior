@@ -13,7 +13,7 @@ export default function Comparison(){
                   <div className="flex mx-28">
                     <div ><b className="font-sans text-2xl text-black tracking-wide">Go to Product page<br/> for more Products</b><br/><p className="font-sans text-gray-600 font-semibold underline tracking-wide">View more</p></div>
                   </div>
-                  <div className="flex gap-8"><p className="font-sans text-semibold "> <Image className="w-24 h-24 bg-orange-500 opacity-20" src={sofa} alt=""/><br/><b>Asgard Sofa</b><br/>Rs.250,0000.000<br/>4.7 &#x2B50;&#x2B50;&#x2B50;&#x2B50;&#x2B50;&nbsp;&nbsp;   &#8739; &nbsp;&nbsp; <b className="font-sans text-xs text-gray-500">204 Reviews</b></p>
+                  <div className="flex gap-8"><p className="font-sans text-semibold "> <Image className="w-24 h-24 rounded-md bg-orange-400 bg-opacity-20" src={sofa} alt=""/><br/><b>Asgard Sofa</b><br/>Rs.250,0000.000<br/>4.7 &#x2B50;&#x2B50;&#x2B50;&#x2B50;&#x2B50;&nbsp;&nbsp;   &#8739; &nbsp;&nbsp; <b className="font-sans text-xs text-gray-500">204 Reviews</b></p>
                   <p className="font-sans text-semibold "> <Image className="w-24 h-24" src={s1} alt=""/><br/><b>Outdoor Sofa Set</b><br/>Rs.224,0000.000<br/>4.2 &#x2B50;&#x2B50;&#x2B50;&#x2B50;&#x2B50;&nbsp;&nbsp;   &#8739; &nbsp;&nbsp; <b className="font-sans text-xs text-gray-500">145 Reviews</b></p></div>
                  <div className="pt-20 mx-20 "><button className=" rounded-md  bg-[#B88E2F] text-xs px-12 py-8 text-white tacking-wide ">Choose a Product&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x2B9f; </button></div><br/>
                  </div> 
