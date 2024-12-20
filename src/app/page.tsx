@@ -23,7 +23,7 @@ import i4 from '../app/cover/i4.png';
 import l1 from '../app/cover/l1.png';
 import Card from '../app/card/page';
 import h1 from '../app/card/h1.png';
-
+import h2 from '../app/card/h2.png';
 import h3 from '../app/card/h3.png';
 import h4 from '../app/card/h4.png';
 import h5 from '../app/card/h5.png';
