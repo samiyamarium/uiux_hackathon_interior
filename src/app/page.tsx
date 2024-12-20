@@ -38,6 +38,7 @@ import Card1 from '../app/card1/page';
 import Shopft from '../app/shop_ft/page';
 import Checkout from '../app/checkout/page';
 import Singlep from '../app/singlep/page';
+import Comparison from '../app/productcomparison/page';
 
 
 
@@ -96,6 +97,7 @@ inspiration</b></div><div className="font-sans font-semibold text-xl  text-black
      <br/>
       <div><Singlep/></div>
       <div><Cart/></div>
+      <div><Comparison/></div>
      <div><Checkout/></div>
       <div><Contact/></div>
       <br/>
