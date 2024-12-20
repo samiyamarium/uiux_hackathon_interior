@@ -50,7 +50,7 @@ export default function Comparison(){
                    <b  className="font-sans text-2xl space-y-8  text-black ">Warranty</b><br/><ul className="list-none tracking-wide space-y-4 font-semibold font-sans text-gray-700">
                     <li>Warrant Summary</li><br/>
                    <li >Warranty Service Type</li><br/><br/><br/>
-                   <li >Covered in Warranty </li>
+                   <li >Covered in Warranty </li><br/><br/><br/>
                    <li>Not Covered in Warranty</li>
                    <li className="py-[107]">Domestic Warranty</li>
                    
