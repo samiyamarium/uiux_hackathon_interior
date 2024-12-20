@@ -51,7 +51,7 @@ export default function Comparison(){
                     <li>Warrant Summary</li><br/>
                    <li >Warranty Service Type</li><br/><br/><br/>
                    <li >Covered in Warranty </li><br/>
-                   <li>Not Covered in Warranty</li>
+                   <li>Not Covered in Warranty</li><br/><br/><br/><br/>
                    <li className="py-[107]">Domestic Warranty</li>
                    
                    </ul></div><hr/>
