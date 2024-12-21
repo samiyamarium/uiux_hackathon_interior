@@ -60,8 +60,12 @@ export default function Home() {
 
         <div id="3" className="py-4 text-center text-4xl text-black tracking-wide font-bold font-sans"> Browse The Range</div>
         <div className=" text-center text-xl text-gray-400 tracking-wide font-semibold font-sans">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div><br/>
-      <br/><div className="flex  ml-28   text-xl font-sans tracking-wide  font-semibold text-center text-black w-96 gap-8 "><p><Image src={r1} alt=""/><br/>Dining</p><p><Image src={r2} alt=""/><br/>Living</p><p>Image src={r3} alt=""/><br/>Bedroom</p></div>
-       
+      <br/><div className="flex  ml-28   text-xl font-sans tracking-wide  font-semibold text-center text-black w-96 gap-8 "><Image src={r1} alt=""/><Image src={r2} alt=""/>Image src={r3} alt=""/></div>
+        <div className="flex   justify-between gap-60"><ul className=" ml-48 flex  gap-72 text-xl font-sans tracking-wide font-semibold text-black    ">
+          <li className="pl-20">Dining</li>
+          <li className="pl-12">Living</li>
+          <li className="pl-14">Bedroom</li>
+          </ul> </div>
         <div  className="m-20 text-center text-4xl text-black tracking-wide font-bold font-sans"><b>Our Products</b></div>
         <div className="flex flex-wrap   gap-12 mx-20">
         <div className=" grid-cols-1 md:grid-cols-2 lg:grid-cols-3  flex-wrap"><Card bgcolor='bg-red-700' v='-30%' i={<Image className="w-screen h-48" src={h1} alt=""/>} l1='Slytherine' l2='Stylish cafe chair' l3='Rp 2.500.000 ' l4='Rp 3.500.000'/></div>
