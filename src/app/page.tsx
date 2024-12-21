@@ -60,7 +60,7 @@ export default function Home() {
 
         <div id="3" className="py-4 text-center text-4xl text-black tracking-wide font-bold font-sans"> Browse The Range</div>
         <div className=" text-center text-xl text-gray-400 tracking-wide font-semibold font-sans">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div><br/>
-      <br/><div className="flex  ml-28   text-xl font-sans tracking-wide  font-semibold text-black w-96 gap-8 "><Image src={r1} alt=""/><Image src={r2} alt=""/><Image src={r3} alt=""/></div>
+      <br/><div className="flex  ml-28   text-xl font-sans tracking-wide  font-semibold text-black w-96 gap-8 "><p><Image src={r1} alt=""/><br/>Dining</p><Image src={r2} alt=""/><Image src={r3} alt=""/></div>
         <div className="flex   justify-between gap-60"><ul className=" ml-48 flex  gap-72 text-xl font-sans tracking-wide font-semibold text-black    ">
           <li className="pl-20">Dining</li>
           <li className="pl-12">Living</li>
