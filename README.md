@@ -1,4 +1,4 @@
-##Day2_Hackathon_Marketplace is uploaded to main branch..
+##Day2_Hackathon_Marketplace is uploaded to main ..
 
 ##day 3 hackathon ,API integration https://github.com/samiyamarium/upgraded_mile3_assign
 
